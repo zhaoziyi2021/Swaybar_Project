@@ -1,0 +1,1080 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  07/Apr/2024  17:03:13
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Exe\VRFR_Project.out.tmp
+#    Map file     =  
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\List\VRFR_Project.map
+#    Command line =  
+#        -f C:\Users\dell\AppData\Local\Temp\EW188B.tmp
+#        (E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\APP_Prg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\CAN.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\CAN_Cfg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\CAN_Irq.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\CAN_Prg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\CAN_Trcv.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\COM_Cfg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\COM_Prg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\DTC.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\EB_Cfg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\EB_Prg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\eepromapi.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\EncryptAlg1.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_adc.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_bkp.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_can.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_cmp.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_crc.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_dac.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_dbg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_dma.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_exti.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_fmc.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_fwdgt.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_gpio.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_i2c.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_it.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_mfcom.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_misc.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_pmu.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_rcu.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_rtc.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_spi.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_syscfg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_timer.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_trigsel.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_usart.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\gd32a50x_wwdgt.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\IL_Prg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\IO.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\LowPowerApi.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\MAIN.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\RTE.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\SoftTimerDrv.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\Srv_Com.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\Srv_IO.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\Swaybar.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\system_gd32a50x.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\TaskStep.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\TP_Cfg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\TP_Prg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\UDS_Cfg.o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj\UDS_Prg.o
+#        --no_out_extension -o
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Exe\VRFR_Project.out.tmp
+#        --map
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\List\VRFR_Project.map
+#        --config
+#        E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\GD32A503VC_APP.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x801'0000 { ro section .intvec };
+"P1":  place in [from 0x801'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 32 { };
+define block HEAP with size = 2K, alignment = 32 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section .APP  in "A1"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code   0x801'0000    0x40  vector_table_M.o [4]
+                             - 0x801'0040    0x40
+
+"P1":                                      0x8066
+  .text              ro code   0x801'0040  0x13e8  UDS_Prg.o [1]
+  .text              ro code   0x801'1428   0xb96  APP_Prg.o [1]
+  .text              ro code   0x801'1fbe    0x3a  zero_init3.o [4]
+  .text              ro code   0x801'1ff8   0x378  EB_Prg.o [1]
+  .text              ro code   0x801'2370   0x4fc  eepromapi.o [1]
+  .text              ro code   0x801'286c   0x124  SoftTimerDrv.o [1]
+  .text              ro code   0x801'2990     0x6  ABImemclr4.o [4]
+  .rodata            const     0x801'2996     0x2  UDS_Cfg.o [1]
+  .text              ro code   0x801'2998   0x8bc  gd32a50x_fmc.o [1]
+  .text              ro code   0x801'3254   0x1f0  Srv_Com.o [1]
+  .text              ro code   0x801'3444    0xb0  rand.o [2]
+  .text              ro code   0x801'34f4    0x98  EncryptAlg1.o [1]
+  .text              ro code   0x801'358c   0x908  DTC.o [1]
+  .text              ro code   0x801'3e94   0xde8  COM_Prg.o [1]
+  .text              ro code   0x801'4c7c     0xa  IL_Prg.o [1]
+  .rodata            const     0x801'4c86     0x2  UDS_Cfg.o [1]
+  .text              ro code   0x801'4c88   0xc90  TP_Prg.o [1]
+  .text              ro code   0x801'5918     0x4  CAN_Trcv.o [1]
+  .text              ro code   0x801'591c    0xc4  CAN_Prg.o [1]
+  .text              ro code   0x801'59e0    0x32  ABImemset48.o [4]
+  .text              ro code   0x801'5a12     0x2  vector_table_M.o [4]
+  .text              ro code   0x801'5a14    0x66  ABImemset.o [4]
+  .rodata            const     0x801'5a7a     0x1  COM_Cfg.o [1]
+  .rodata            const     0x801'5a7b     0x1  COM_Cfg.o [1]
+  .text              ro code   0x801'5a7c    0x76  ABImemcpy_unaligned.o [4]
+  .rodata            const     0x801'5af2     0x1  COM_Cfg.o [1]
+  .rodata            const     0x801'5af3     0x1  COM_Cfg.o [1]
+  .text              ro code   0x801'5af4   0x6fa  gd32a50x_can.o [1]
+  .rodata            const     0x801'61ee     0x1  UDS_Cfg.o [1]
+  .rodata            const     0x801'61ef     0x1  UDS_Cfg.o [1]
+  .text              ro code   0x801'61f0    0x98  gd32a50x_fwdgt.o [1]
+  .text              ro code   0x801'6288   0x478  CAN.o [1]
+  .text              ro code   0x801'6700     0x4  CAN_Irq.o [1]
+  .text              ro code   0x801'6704   0x104  gd32a50x_rcu.o [1]
+  .text              ro code   0x801'6808   0x15a  gd32a50x_gpio.o [1]
+  .rodata            const     0x801'6962     0x1  UDS_Cfg.o [1]
+  .rodata            const     0x801'6963     0x1  UDS_Cfg.o [1]
+  .text              ro code   0x801'6964    0xe8  gd32a50x_misc.o [1]
+  .text              ro code   0x801'6a4c   0x3dc  gd32a50x_adc.o [1]
+  .text              ro code   0x801'6e28   0x354  IO.o [1]
+  .text              ro code   0x801'717c    0x7c  gd32a50x_timer.o [1]
+  .text              ro code   0x801'71f8   0x2ec  Swaybar.o [1]
+  .text              ro code   0x801'74e4   0x14c  Srv_IO.o [1]
+  .text              ro code   0x801'7630   0x170  MAIN.o [1]
+  .text              ro code   0x801'77a0    0x98  LowPowerApi.o [1]
+  .text              ro code   0x801'7838    0x5c  RTE.o [1]
+  .text              ro code   0x801'7894   0x124  TaskStep.o [1]
+  .text              ro code   0x801'79b8    0x48  gd32a50x_pmu.o [1]
+  .rodata            const     0x801'7a00   0x168  UDS_Cfg.o [1]
+  .rodata            const     0x801'7b68   0x120  UDS_Cfg.o [1]
+  .text              ro code   0x801'7c88   0x11c  gd32a50x_it.o [1]
+  .text              ro code   0x801'7da4    0x20  gd32a50x_syscfg.o [1]
+  .rodata            const     0x801'7dc4    0xe0  UDS_Cfg.o [1]
+  .text              ro code   0x801'7ea4    0x38  packbits_init_single.o [4]
+  .rodata            const     0x801'7edc    0x34  DTC.o [1]
+  .rodata            const     0x801'7f10    0x28  TP_Cfg.o [1]
+  .text              ro code   0x801'7f38    0x28  data_init.o [4]
+  .text              ro code   0x801'7f60    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x801'7f84    0x20  - Linker created -
+  .text              ro code   0x801'7fa4    0x1e  cmain.o [4]
+  .text              ro code   0x801'7fc2     0x4  low_level_init.o [2]
+  .text              ro code   0x801'7fc6     0x4  exit.o [2]
+  .text              ro code   0x801'7fcc     0xa  cexit.o [4]
+  .text              ro code   0x801'7fd8    0x14  exit.o [5]
+  .rodata            const     0x801'7fec    0x18  COM_Cfg.o [1]
+  .rodata            const     0x801'8004    0x10  COM_Cfg.o [1]
+  .rodata            const     0x801'8014    0x10  COM_Cfg.o [1]
+  .text              ro code   0x801'8024     0xc  cstartup_M.o [4]
+  .rodata            const     0x801'8030     0x8  COM_Cfg.o [1]
+  .rodata            const     0x801'8038     0x4  COM_Cfg.o [1]
+  .rodata            const     0x801'803c     0x4  COM_Cfg.o [1]
+  .rodata            const     0x801'8040     0x4  COM_Cfg.o [1]
+  .rodata            const     0x801'8044     0x4  COM_Cfg.o [1]
+  .rodata            const     0x801'8048     0x4  COM_Cfg.o [1]
+  .rodata            const     0x801'804c     0x4  COM_Cfg.o [1]
+  .rodata            const     0x801'8050     0x0  zero_init3.o [4]
+  .rodata            const     0x801'8050     0x0  packbits_init_single.o [4]
+  Initializer bytes  const     0x801'8050    0x56  <for P2-1>
+                             - 0x801'80a6  0x8066
+
+Absolute sections, part 1 of 2:              0x2b
+  .rodata            const     0x803'fd20    0x10  APP_Prg.o [1]
+  .rodata            const     0x803'fd30    0x10  APP_Prg.o [1]
+  .rodata            const     0x803'fd40     0xb  APP_Prg.o [1]
+                             - 0x803'fd4b    0x2b
+
+Absolute sections, part 2 of 2:              0x18
+  .rodata            const     0x803'fd60    0x18  APP_Prg.o [1]
+                             - 0x803'fd78    0x18
+
+"P2", part 1 of 3:                           0x67
+  P2-1                        0x2000'0000    0x67  <Init block>
+    .data            inited   0x2000'0000     0xc  APP_Prg.o [1]
+    .data            inited   0x2000'000c     0x4  APP_Prg.o [1]
+    .data            inited   0x2000'0010     0x8  APP_Prg.o [1]
+    .data            inited   0x2000'0018     0x8  APP_Prg.o [1]
+    .data            inited   0x2000'0020     0x4  EncryptAlg1.o [1]
+    .data            inited   0x2000'0024     0x4  system_gd32a50x.o [1]
+    .data            inited   0x2000'0028    0x30  TaskStep.o [1]
+    .data            inited   0x2000'0058     0x8  rand.o [2]
+    .data            inited   0x2000'0060     0x1  APP_Prg.o [1]
+    .data            inited   0x2000'0061     0x1  APP_Prg.o [1]
+    .data            inited   0x2000'0062     0x1  APP_Prg.o [1]
+    .data            inited   0x2000'0063     0x1  APP_Prg.o [1]
+    .data            inited   0x2000'0064     0x1  APP_Prg.o [1]
+    .data            inited   0x2000'0065     0x1  APP_Prg.o [1]
+    .data            inited   0x2000'0066     0x1  Srv_Com.o [1]
+                            - 0x2000'0067    0x67
+
+"P2", part 2 of 3:                          0x798
+  .bss               zero     0x2000'0068   0x12c  TP_Cfg.o [1]
+  .bss               zero     0x2000'0194   0x12c  TP_Cfg.o [1]
+  .bss               zero     0x2000'02c0    0x98  SoftTimerDrv.o [1]
+  .bss               zero     0x2000'0358    0x84  rand.o [2]
+  .bss               zero     0x2000'03dc    0x80  eepromapi.o [1]
+  .bss               zero     0x2000'045c    0x80  eepromapi.o [1]
+  .bss               zero     0x2000'04dc    0x80  eepromapi.o [1]
+  .bss               zero     0x2000'055c    0x1c  Srv_Com.o [1]
+  .bss               zero     0x2000'0578    0x80  gd32a50x_it.o [1]
+  .bss               zero     0x2000'05f8    0x68  DTC.o [1]
+  .bss               zero     0x2000'0660    0x40  TP_Prg.o [1]
+  .bss               zero     0x2000'06a0    0x18  COM_Prg.o [1]
+  .bss               zero     0x2000'06b8    0x14  CAN.o [1]
+  .bss               zero     0x2000'06cc    0x14  CAN.o [1]
+  .bss               zero     0x2000'06e0    0x14  DTC.o [1]
+  .bss               zero     0x2000'06f4    0x14  DTC.o [1]
+  .bss               zero     0x2000'0708    0x14  Srv_Com.o [1]
+  .bss               zero     0x2000'071c    0x10  APP_Prg.o [1]
+  .bss               zero     0x2000'072c    0x10  eepromapi.o [1]
+  .bss               zero     0x2000'073c    0x10  Srv_IO.o [1]
+  .bss               zero     0x2000'074c    0x10  UDS_Prg.o [1]
+  .bss               zero     0x2000'075c     0x8  CAN.o [1]
+  .bss               zero     0x2000'0764     0x8  eepromapi.o [1]
+  .bss               zero     0x2000'076c     0x8  RTE.o [1]
+  .bss               zero     0x2000'0774     0x8  Srv_Com.o [1]
+  .bss               zero     0x2000'077c     0x8  Srv_IO.o [1]
+  .bss               zero     0x2000'0784     0x4  APP_Prg.o [1]
+  .bss               zero     0x2000'0788     0x4  APP_Prg.o [1]
+  .bss               zero     0x2000'078c     0x4  APP_Prg.o [1]
+  .bss               zero     0x2000'0790     0x4  APP_Prg.o [1]
+  .bss               zero     0x2000'0794     0x4  COM_Prg.o [1]
+  .bss               zero     0x2000'0798     0x4  COM_Prg.o [1]
+  .bss               zero     0x2000'079c     0x4  COM_Prg.o [1]
+  .bss               zero     0x2000'07a0     0x4  COM_Prg.o [1]
+  .bss               zero     0x2000'07a4     0x4  EncryptAlg1.o [1]
+  .bss               zero     0x2000'07a8     0x4  EncryptAlg1.o [1]
+  .bss               zero     0x2000'07ac     0x4  EncryptAlg1.o [1]
+  .bss               zero     0x2000'07b0     0x4  Swaybar.o [1]
+  .bss               zero     0x2000'07b4     0x4  TP_Prg.o [1]
+  .bss               zero     0x2000'07b8     0x4  TP_Prg.o [1]
+  .bss               zero     0x2000'07bc     0x4  UDS_Prg.o [1]
+  .bss               zero     0x2000'07c0     0x2  CAN_Prg.o [1]
+  .bss               zero     0x2000'07c2     0x2  COM_Prg.o [1]
+  .bss               zero     0x2000'07c4     0x2  COM_Prg.o [1]
+  .bss               zero     0x2000'07c6     0x2  Swaybar.o [1]
+  .bss               zero     0x2000'07c8     0x2  UDS_Prg.o [1]
+  .bss               zero     0x2000'07ca     0x2  UDS_Prg.o [1]
+  .bss               zero     0x2000'07cc     0x2  UDS_Prg.o [1]
+  .bss               zero     0x2000'07ce     0x2  UDS_Prg.o [1]
+  .bss               zero     0x2000'07d0     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d1     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d2     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d3     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d4     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d5     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d6     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d7     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d8     0x1  APP_Prg.o [1]
+  .bss               zero     0x2000'07d9     0x1  CAN_Prg.o [1]
+  .bss               zero     0x2000'07da     0x1  CAN_Prg.o [1]
+  .bss               zero     0x2000'07db     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07dc     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07dd     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07de     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07df     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07e0     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07e1     0x1  COM_Prg.o [1]
+  .bss               zero     0x2000'07e2     0x1  DTC.o [1]
+  .bss               zero     0x2000'07e3     0x1  DTC.o [1]
+  .bss               zero     0x2000'07e4     0x1  DTC.o [1]
+  .bss               zero     0x2000'07e5     0x1  EB_Prg.o [1]
+  .bss               zero     0x2000'07e6     0x1  EB_Prg.o [1]
+  .bss               zero     0x2000'07e7     0x1  LowPowerApi.o [1]
+  .bss               zero     0x2000'07e8     0x1  LowPowerApi.o [1]
+  .bss               zero     0x2000'07e9     0x1  LowPowerApi.o [1]
+  .bss               zero     0x2000'07ea     0x1  LowPowerApi.o [1]
+  .bss               zero     0x2000'07eb     0x1  LowPowerApi.o [1]
+  .bss               zero     0x2000'07ec     0x1  Srv_Com.o [1]
+  .bss               zero     0x2000'07ed     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07ee     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07ef     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f0     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f1     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f2     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f3     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f4     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f5     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f6     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f7     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f8     0x1  Swaybar.o [1]
+  .bss               zero     0x2000'07f9     0x1  TaskStep.o [1]
+  .bss               zero     0x2000'07fa     0x1  UDS_Prg.o [1]
+  .bss               zero     0x2000'07fb     0x1  UDS_Prg.o [1]
+  .bss               zero     0x2000'07fc     0x1  UDS_Prg.o [1]
+  .bss               zero     0x2000'07fd     0x1  UDS_Prg.o [1]
+  .bss               zero     0x2000'07fe     0x1  UDS_Prg.o [1]
+  .bss               zero     0x2000'07ff     0x1  UDS_Prg.o [1]
+                            - 0x2000'0800   0x798
+
+"P2", part 3 of 3:                          0x800
+  CSTACK                      0x2000'0800   0x800  <Block>
+    CSTACK           uninit   0x2000'0800   0x800  <Block tail>
+                            - 0x2000'1000   0x800
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x801'80a6   0x803'fd1f  0x2'7c7a
+   0x803'fd4b   0x803'fd5f      0x15
+   0x803'fd78   0x803'ffff     0x288
+  0x2000'0067  0x2000'0067       0x1
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x798:
+          0x2000'0068  0x798
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x56 (83% of destination):
+           0x801'8050   0x56
+    1 destination range, total size 0x67:
+          0x2000'0000   0x67
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data  ro data
+                                                        (abs)
+    ------                  -------  -------  -------  -------
+command line/config:
+    ----------------------------------------------------------
+    Total:
+
+E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj: [1]
+    APP_Prg.o                 2 966       31       79       67
+    CAN.o                     1 144                48
+    CAN_Irq.o                     4
+    CAN_Prg.o                   196                 4
+    CAN_Trcv.o                    4
+    COM_Cfg.o                             92
+    COM_Prg.o                 3 560                51
+    DTC.o                     2 312       52      147
+    EB_Prg.o                    888                 2
+    EncryptAlg1.o               152        4       16
+    IL_Prg.o                     10
+    IO.o                        852
+    LowPowerApi.o               152                 5
+    MAIN.o                      368
+    RTE.o                        92                 8
+    SoftTimerDrv.o              292               152
+    Srv_Com.o                   496        1       58
+    Srv_IO.o                    332                24
+    Swaybar.o                   748                18
+    TP_Cfg.o                              40      600
+    TP_Prg.o                  3 216                72
+    TaskStep.o                  292       40       49
+    UDS_Cfg.o                            880
+    UDS_Prg.o                 5 096                34
+    eepromapi.o               1 276               408
+    gd32a50x_adc.o              988
+    gd32a50x_can.o            1 786
+    gd32a50x_fmc.o            2 236
+    gd32a50x_fwdgt.o            152
+    gd32a50x_gpio.o             346
+    gd32a50x_it.o               284               128
+    gd32a50x_misc.o             232
+    gd32a50x_pmu.o               72
+    gd32a50x_rcu.o              260
+    gd32a50x_syscfg.o            32
+    gd32a50x_timer.o            124
+    system_gd32a50x.o                      3        4
+    ----------------------------------------------------------
+    Total:                   30 960    1 143    1 907       67
+
+dl7M_tlf.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    rand.o                      176        7      140
+    ----------------------------------------------------------
+    Total:                      184        7      140
+
+m7M_tls.a: [3]
+    fpinit_M.o                   34
+    ----------------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                  6
+    ABImemcpy_unaligned.o       118
+    ABImemset.o                 102
+    ABImemset48.o                50
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       56
+    vector_table_M.o             66
+    zero_init3.o                 58
+    ----------------------------------------------------------
+    Total:                      548
+
+shb_l.a: [5]
+    exit.o                       20
+    ----------------------------------------------------------
+    Total:                       20
+
+    Gaps                          4        2
+    Linker created                        32    2 048
+--------------------------------------------------------------
+    Grand Total:             31 750    1 184    4 095       67
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x801'7f84          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x801'7fa4          --   Gb  - Linker created -
+?main                    0x801'7fa5         Code  Gb  cmain.o [4]
+ADC_GetData              0x801'7049  0x11a  Code  Gb  IO.o [1]
+ADC_Init                 0x801'6f35  0x114  Code  Gb  IO.o [1]
+APP_COM_MonNodeStatusInd
+                         0x801'1499    0x2  Code  Gb  APP_Prg.o [1]
+APP_ComBackInd           0x801'1483    0xa  Code  Gb  APP_Prg.o [1]
+APP_ComLossInd           0x801'148d    0xa  Code  Gb  APP_Prg.o [1]
+APP_ComModeModifyExtension
+                         0x801'1481    0x2  Code  Gb  APP_Prg.o [1]
+APP_ComNAsInd            0x801'147f    0x2  Code  Gb  APP_Prg.o [1]
+APP_ComTxFrameInd        0x801'1497    0x2  Code  Gb  APP_Prg.o [1]
+APP_InterruptDisable     0x801'1477    0x8  Code  Gb  APP_Prg.o [1]
+APP_InterruptEnable      0x801'146f    0x8  Code  Gb  APP_Prg.o [1]
+APP_TpDataBufferEmptyInd
+                         0x801'1fb5    0x2  Code  Gb  APP_Prg.o [1]
+APP_TpRxInd              0x801'1fb9    0x2  Code  Gb  APP_Prg.o [1]
+APP_TpTxConf             0x801'1fb7    0x2  Code  Gb  APP_Prg.o [1]
+APP_UdsSessionStatusInd
+                         0x801'1f17   0x28  Code  Gb  APP_Prg.o [1]
+AccessSeedFlg           0x2000'07d1    0x1  Data  Lc  APP_Prg.o [1]
+Access_Security_PowerInit
+                         0x801'1429   0x46  Code  Gb  APP_Prg.o [1]
+BT_CAN_Mapping_Result    0x801'1e97    0x6  Code  Gb  APP_Prg.o [1]
+BT_CAN_Mapping_Start     0x801'1e63   0x1a  Code  Gb  APP_Prg.o [1]
+BT_CAN_Mapping_Stop      0x801'1e7d   0x1a  Code  Gb  APP_Prg.o [1]
+BcmEnterSleepCheck       0x801'77db   0x10  Code  Gb  LowPowerApi.o [1]
+BcmEnterSleepDeal        0x801'77eb   0x2e  Code  Gb  LowPowerApi.o [1]
+BusOffRecovery           0x801'47e1   0x22  Code  Gb  COM_Prg.o [1]
+BusOffRecoveryCnt       0x2000'07c0    0x2  Data  Gb  CAN_Prg.o [1]
+CAN0BusOffSts          0x2000'07ec    0x1  Data  Gb  Srv_Com.o [1]
+CAN_Activate             0x801'5963    0x8  Code  Gb  CAN_Prg.o [1]
+CAN_CAN0Init             0x801'6289  0x280  Code  Gb  CAN.o [1]
+CAN_CAN1Init             0x801'6509  0x192  Code  Lc  CAN.o [1]
+CAN_CancelFrame          0x801'5921   0x12  Code  Gb  CAN_Prg.o [1]
+CAN_Desactivate          0x801'596b    0x8  Code  Gb  CAN_Prg.o [1]
+CAN_Init                 0x801'5973    0xe  Code  Gb  CAN_Prg.o [1]
+CAN_InterruptDisable     0x801'6703    0x2  Code  Gb  CAN_Irq.o [1]
+CAN_InterruptEnable      0x801'6701    0x2  Code  Gb  CAN_Irq.o [1]
+CAN_MailboxInterruptEnable
+                         0x801'595f    0x2  Code  Gb  CAN_Prg.o [1]
+CAN_Rcv                 0x2000'055c   0x1c  Data  Gb  Srv_Com.o [1]
+CAN_SetGeneralStdMask    0x801'5961    0x2  Code  Gb  CAN_Prg.o [1]
+CAN_SetMailboxIde        0x801'5949   0x14  Code  Gb  CAN_Prg.o [1]
+CAN_SetMailboxInterruptCfg
+                         0x801'595d    0x2  Code  Gb  CAN_Prg.o [1]
+CAN_SetMailboxMode       0x801'5933   0x14  Code  Gb  CAN_Prg.o [1]
+CAN_SetMailboxRtr        0x801'591f    0x2  Code  Gb  CAN_Prg.o [1]
+CAN_SetMailboxStdIdent   0x801'591d    0x2  Code  Gb  CAN_Prg.o [1]
+CAN_SetMailboxStdMask    0x801'5947    0x2  Code  Gb  CAN_Prg.o [1]
+CAN_SetTransceiverMode   0x801'591b    0x2  Code  Gb  CAN_Trcv.o [1]
+CAN_TransceiverPinCfg    0x801'5919    0x2  Code  Gb  CAN_Trcv.o [1]
+CAN_Tx                  0x2000'0774    0x8  Data  Gb  Srv_Com.o [1]
+CAN_vInit                0x801'669b   0x44  Code  Gb  CAN.o [1]
+COM_Activate             0x801'436f  0x1a4  Code  Lc  COM_Prg.o [1]
+COM_ComBackInd           0x801'210d    0xe  Code  Gb  EB_Prg.o [1]
+COM_ComLossInd           0x801'211b    0xe  Code  Gb  EB_Prg.o [1]
+COM_Desactivate          0x801'4513    0xc  Code  Lc  COM_Prg.o [1]
+COM_ExTimeManage         0x801'49f1   0x88  Code  Lc  COM_Prg.o [1]
+COM_GetFrameData         0x801'419d   0xfc  Code  Gb  COM_Prg.o [1]
+COM_GetFrameRxFlag       0x801'4299   0x6a  Code  Gb  COM_Prg.o [1]
+COM_GetLastRxFrameLen    0x801'433f   0x30  Code  Gb  COM_Prg.o [1]
+COM_Init                 0x801'3e95   0x7e  Code  Gb  COM_Prg.o [1]
+COM_Manage               0x801'4803   0x1c  Code  Gb  COM_Prg.o [1]
+COM_ModeModify           0x801'3f13   0xc4  Code  Gb  COM_Prg.o [1]
+COM_ModeModifyExtension
+                         0x801'2129   0x1a  Code  Gb  EB_Prg.o [1]
+COM_MonNodeCntInit       0x801'4679   0x38  Code  Lc  COM_Prg.o [1]
+COM_MonNodeInd           0x801'46b1  0x130  Code  Lc  COM_Prg.o [1]
+COM_MonNodeInit          0x801'4303   0x3c  Code  Gb  COM_Prg.o [1]
+COM_MonNodeManage        0x801'4b59   0xd4  Code  Lc  COM_Prg.o [1]
+COM_MonNodeStatusInd     0x801'2151   0x14  Code  Gb  EB_Prg.o [1]
+COM_NAsInd               0x801'20c3   0x2a  Code  Gb  EB_Prg.o [1]
+COM_Periodic             0x801'3fd7   0x62  Code  Gb  COM_Prg.o [1]
+COM_PeriodicFrame        0x801'4039   0x4e  Code  Gb  COM_Prg.o [1]
+COM_PeriodicStartStop    0x801'451f   0xb6  Code  Lc  COM_Prg.o [1]
+COM_RxMonManage          0x801'4b21   0x24  Code  Lc  COM_Prg.o [1]
+COM_SendFrame            0x801'4087   0x9a  Code  Gb  COM_Prg.o [1]
+COM_SetFrameData         0x801'4121   0x7c  Code  Gb  COM_Prg.o [1]
+COM_TxFail               0x801'4835   0x98  Code  Lc  COM_Prg.o [1]
+COM_TxFrame              0x801'45d5   0xa4  Code  Lc  COM_Prg.o [1]
+COM_TxFrameInd           0x801'2143    0xe  Code  Gb  EB_Prg.o [1]
+COM_TxManage             0x801'48dd  0x114  Code  Lc  COM_Prg.o [1]
+COM_TxMonManage          0x801'4a7d   0x9c  Code  Lc  COM_Prg.o [1]
+COM_TxTimeoutInd         0x801'20ed   0x20  Code  Gb  EB_Prg.o [1]
+CSTACK$$Base            0x2000'0800          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1000          --   Gb  - Linker created -
+CalcChecksum             0x801'24d1   0x36  Code  Gb  eepromapi.o [1]
+Can_GetBusOffStatus         0x801'5981   0x46  Code  Gb  CAN_Prg.o [1]
+CheckProgrammingDependence_Result
+                         0x801'1e41    0x6  Code  Gb  APP_Prg.o [1]
+CheckProgrammingDependence_Start
+                         0x801'1e35    0x6  Code  Gb  APP_Prg.o [1]
+CheckProgrammingDependence_Stop
+                         0x801'1e3b    0x6  Code  Gb  APP_Prg.o [1]
+CheckProgrammingPreconditions_Result
+                         0x801'1e5d    0x6  Code  Gb  APP_Prg.o [1]
+CheckProgrammingPreconditions_Start
+                         0x801'1e47   0x10  Code  Gb  APP_Prg.o [1]
+CheckProgrammingPreconditions_Stop
+                         0x801'1e57    0x6  Code  Gb  APP_Prg.o [1]
+CheckSum                 0x801'3255   0x3e  Code  Lc  Srv_Com.o [1]
+ChkSoftTimerState        0x801'2895   0x26  Code  Gb  SoftTimerDrv.o [1]
+ClearDiagnosticInfor     0x801'38af  0x14a  Code  Gb  DTC.o [1]
+ClearDiagnosticInformation
+                         0x801'1a27   0x30  Code  Gb  APP_Prg.o [1]
+ClearTimingTickFlag      0x801'78b5    0x8  Code  Gb  TaskStep.o [1]
+ControlDTCSetting_OFF    0x801'1a07   0x14  Code  Gb  APP_Prg.o [1]
+ControlDTCSetting_ON     0x801'19f3   0x14  Code  Gb  APP_Prg.o [1]
+DTCDeal                  0x801'3c25   0x48  Code  Gb  DTC.o [1]
+DTCDrivingCycleBeginBDCAN
+                         0x801'375d  0x108  Code  Gb  DTC.o [1]
+DTCDrivingCycleEndBDCAN
+                         0x801'3865   0x4a  Code  Gb  DTC.o [1]
+DTCInit                  0x801'35bf   0x3e  Code  Gb  DTC.o [1]
+DTCObjectUpdate          0x801'3b59   0xcc  Code  Lc  DTC.o [1]
+DTCSleepDeal             0x801'3671   0xec  Code  Gb  DTC.o [1]
+DTCWakeUpDeal            0x801'35fd   0x74  Code  Gb  DTC.o [1]
+DTC_Judge               0x2000'06e0   0x14  Data  Gb  DTC.o [1]
+DTC_Number               0x801'7edc   0x34  Data  Gb  DTC.o [1]
+DTC_Object              0x2000'05f8   0x68  Data  Gb  DTC.o [1]
+DTC_Snapshot_Save_Flag  0x2000'07e2    0x1  Data  Gb  DTC.o [1]
+DefaultSession           0x801'149d   0x48  Code  Gb  APP_Prg.o [1]
+DioFilter                0x801'750f   0x38  Code  Lc  Srv_IO.o [1]
+DisableRxAndEnableTx     0x801'18f5   0x7c  Code  Gb  APP_Prg.o [1]
+DisableRxAndTx           0x801'1971   0x7c  Code  Gb  APP_Prg.o [1]
+DriverState             0x2000'07f3    0x1  Data  Lc  Swaybar.o [1]
+DtcRecordControl         0x801'3d09  0x158  Code  Gb  DTC.o [1]
+DtcRecordControl::IG_Status
+                        0x2000'07e4    0x1  Data  Lc  DTC.o [1]
+DtcRecordControl::IG_Status_Pre
+                        0x2000'07e3    0x1  Data  Lc  DTC.o [1]
+DtcVoltageDeal           0x801'3c6d   0x9c  Code  Gb  DTC.o [1]
+Dtc_Control             0x2000'06f4   0x14  Data  Gb  DTC.o [1]
+EB_Init                  0x801'1ff9   0x86  Code  Gb  EB_Prg.o [1]
+EB_Manage                0x801'2165   0x28  Code  Gb  EB_Prg.o [1]
+EB_TpReqManage           0x801'207f   0x44  Code  Gb  EB_Prg.o [1]
+ECUInstallationDataDataIdentifier
+                         0x801'1c61   0x2e  Code  Gb  APP_Prg.o [1]
+ECUInstallationDataDataIdentifier_2E
+                         0x801'1ce7   0xe4  Code  Gb  APP_Prg.o [1]
+ECUManufacturingDataDataIdentifier
+                         0x801'1b9b   0x2e  Code  Gb  APP_Prg.o [1]
+ECUSeriaNumberDataIdentifier
+                         0x801'1df7   0x2c  Code  Gb  APP_Prg.o [1]
+ECUSerialNumber          0x803'fd60   0x18  Data  Gb  APP_Prg.o [1]
+Eeprom0ProgrammCounter   0x801'252d   0x32  Code  Gb  eepromapi.o [1]
+Eeprom1ProgrammCounter   0x801'255f   0x32  Code  Gb  eepromapi.o [1]
+EepromPageBuffer0       0x2000'045c   0x80  Data  Gb  eepromapi.o [1]
+EepromPageBuffer1       0x2000'04dc   0x80  Data  Gb  eepromapi.o [1]
+EnableRxAndDisableTx     0x801'1879   0x7c  Code  Gb  APP_Prg.o [1]
+EnableRxAndTx            0x801'17fd   0x7c  Code  Gb  APP_Prg.o [1]
+EraseMemory_Result       0x801'1e2f    0x6  Code  Gb  APP_Prg.o [1]
+EraseMemory_Start        0x801'1e23    0x6  Code  Gb  APP_Prg.o [1]
+EraseMemory_Stop         0x801'1e29    0x6  Code  Gb  APP_Prg.o [1]
+ExtendedDiagnosticSession
+                         0x801'1593   0x28  Code  Gb  APP_Prg.o [1]
+F188_VMECUSN            0x2000'0010    0x8  Data  Gb  APP_Prg.o [1]
+F198_VMECUHN            0x2000'0018    0x8  Data  Gb  APP_Prg.o [1]
+FL_Door_Latch_Pre       0x2000'07e8    0x1  Data  Gb  LowPowerApi.o [1]
+FR_Door_Latch_Pre       0x2000'07e9    0x1  Data  Gb  LowPowerApi.o [1]
+FlashEep_Init            0x801'768d   0x5e  Code  Lc  MAIN.o [1]
+FlashPage1Programm       0x801'248d   0x44  Code  Gb  eepromapi.o [1]
+FlashProgrammCounter     0x801'2507   0x26  Code  Gb  eepromapi.o [1]
+FronSwaybarFault        0x2000'07f1    0x1  Data  Lc  Swaybar.o [1]
+FrontSwaybarGreenLamp   0x2000'07ed    0x1  Data  Lc  Swaybar.o [1]
+FrontSwaybarSW          0x2000'07f0    0x1  Data  Lc  Swaybar.o [1]
+FrontSwaybarSts         0x2000'07ee    0x1  Data  Lc  Swaybar.o [1]
+FrontSwaybarYellowLamp  0x2000'07ef    0x1  Data  Lc  Swaybar.o [1]
+GetADState               0x801'75bb   0x36  Code  Gb  Srv_IO.o [1]
+GetClutchState           0x801'75f1   0x32  Code  Gb  Srv_IO.o [1]
+GetDigtalIOState         0x801'7547   0x74  Code  Gb  Srv_IO.o [1]
+GetTimingTickStatus      0x801'78af    0x6  Code  Gb  TaskStep.o [1]
+HardFault_Handler        0x801'1fbd    0x2  Code  Gb  APP_Prg.o [1]
+HardReset                0x801'15bb   0x28  Code  Gb  APP_Prg.o [1]
+HardWare                 0x803'fd30   0x10  Data  Gb  APP_Prg.o [1]
+IL_Init                  0x801'4c7f    0x8  Code  Gb  IL_Prg.o [1]
+IL_InitOldSignalsValue   0x801'4c7d    0x2  Code  Lc  IL_Prg.o [1]
+IO_Control              0x2000'072c   0x10  Data  Gb  eepromapi.o [1]
+IO_Init                  0x801'6e29   0xfc  Code  Gb  IO.o [1]
+IO_Input_Status         0x2000'077c    0x8  Data  Gb  Srv_IO.o [1]
+IO_Sts                  0x2000'073c   0x10  Data  Gb  Srv_IO.o [1]
+IsSameArray              0x801'358d   0x32  Code  Lc  DTC.o [1]
+KeyOffOnReset            0x801'15e3    0x8  Code  Gb  APP_Prg.o [1]
+LowPowerApiInit          0x801'77a1   0x3a  Code  Gb  LowPowerApi.o [1]
+MAIN_vInit               0x801'76eb   0x5e  Code  Lc  MAIN.o [1]
+NCS_SdfVariableRangeError
+                         0x801'1fbb    0x2  Code  Gb  APP_Prg.o [1]
+NMI_Handler              0x801'7c89   0xda  Code  Gb  gd32a50x_it.o [1]
+NMI_Handler::DiagData   0x2000'0578   0x80  Data  Lc  gd32a50x_it.o [1]
+NM_Message_Receive_Flg  0x2000'0065    0x1  Data  Gb  APP_Prg.o [1]
+NM_Message_Transmit_Flg
+                        0x2000'0064    0x1  Data  Gb  APP_Prg.o [1]
+Normal_Message_Receive_Flg
+                        0x2000'0063    0x1  Data  Gb  APP_Prg.o [1]
+Normal_Message_Transmit_Flg
+                        0x2000'0062    0x1  Data  Gb  APP_Prg.o [1]
+PT_CAN_Mapping_Result    0x801'1ed1    0x6  Code  Gb  APP_Prg.o [1]
+PT_CAN_Mapping_Start     0x801'1e9d   0x1a  Code  Gb  APP_Prg.o [1]
+PT_CAN_Mapping_Stop      0x801'1eb7   0x1a  Code  Gb  APP_Prg.o [1]
+PWM_GetData              0x801'6f25   0x10  Code  Gb  IO.o [1]
+Page1DataBuffer         0x2000'03dc   0x80  Data  Gb  eepromapi.o [1]
+PartNumber               0x803'fd40    0xb  Data  Gb  APP_Prg.o [1]
+PendSV_Handler           0x801'7d65    0x2  Code  Gb  gd32a50x_it.o [1]
+ProgrammingSession       0x801'14e5   0xae  Code  Gb  APP_Prg.o [1]
+PwrInitSecurityAccessFlg
+                        0x2000'07d4    0x1  Data  Gb  APP_Prg.o [1]
+RL_Door_Latch_Pre       0x2000'07ea    0x1  Data  Gb  LowPowerApi.o [1]
+RR_Door_Latch_Pre       0x2000'07eb    0x1  Data  Gb  LowPowerApi.o [1]
+RTE                      0x801'7839    0xc  Code  Gb  RTE.o [1]
+RcvTimeoutDeal           0x801'33b3   0x3a  Code  Lc  Srv_Com.o [1]
+ReadConfigDID            0x801'2591   0xb2  Code  Gb  eepromapi.o [1]
+ReadEEromPatameter       0x801'2401   0x8c  Code  Gb  eepromapi.o [1]
+ReadEepromSecurityAccessErrCnt
+                         0x801'27ff   0x48  Code  Gb  eepromapi.o [1]
+ReadMemoryByAddress      0x801'1a1b    0x6  Code  Gb  APP_Prg.o [1]
+ReadParaFromFlash        0x801'2643   0x8e  Code  Gb  eepromapi.o [1]
+Region$$Table$$Base      0x801'7f84          --   Gb  - Linker created -
+Region$$Table$$Limit     0x801'7fa4          --   Gb  - Linker created -
+RepairShopCodeOrTesterSerialNumberDataIdebtifier
+                         0x801'1bf7   0x2e  Code  Gb  APP_Prg.o [1]
+RepairShopCodeOrTesterSerialNumberDataIdebtifier_2E
+                         0x801'1c25   0x3c  Code  Gb  APP_Prg.o [1]
+ReportDTCBySTMask        0x801'3a47   0xa4  Code  Gb  DTC.o [1]
+ReportDTCByStatusMask    0x801'1a6b   0x14  Code  Gb  APP_Prg.o [1]
+ReportDTCExtendedDataRecordByDTCNumber
+                         0x801'1a89    0xa  Code  Gb  APP_Prg.o [1]
+ReportDTCSnapshotRecordByDTCNumber
+                         0x801'1a7f    0xa  Code  Gb  APP_Prg.o [1]
+ReportEmissionsRelatedOBDDTCByStatusMask
+                         0x801'1ab1    0xa  Code  Gb  APP_Prg.o [1]
+ReportNumberOfDTCBySTMask
+                         0x801'39f9   0x4e  Code  Gb  DTC.o [1]
+ReportNumberOfDTCByStatusMask
+                         0x801'1a57   0x14  Code  Gb  APP_Prg.o [1]
+ReportNumberOfEmissionsRelatedOBDDTCByStatusMask
+                         0x801'1aa7    0xa  Code  Gb  APP_Prg.o [1]
+ReportSupportedDTC       0x801'1a93   0x14  Code  Gb  APP_Prg.o [1]
+ReportSupportedDtc       0x801'3aeb   0x6e  Code  Gb  DTC.o [1]
+RequestDownload          0x801'1abb    0x6  Code  Gb  APP_Prg.o [1]
+RequestTransferExit      0x801'1ac7    0x6  Code  Gb  APP_Prg.o [1]
+ResetBcanTxen0           0x801'3411   0x16  Code  Gb  Srv_Com.o [1]
+Run_Task                 0x801'78bd   0x70  Code  Gb  TaskStep.o [1]
+ST_CAN_Mapping_Result    0x801'1f11    0x6  Code  Gb  APP_Prg.o [1]
+ST_CAN_Mapping_Start     0x801'1ed7   0x1a  Code  Gb  APP_Prg.o [1]
+ST_CAN_Mapping_Stop      0x801'1ef1   0x1a  Code  Gb  APP_Prg.o [1]
+SVC_Handler              0x801'7d63    0x2  Code  Gb  gd32a50x_it.o [1]
+SecurityAccessErrCnt    0x2000'07d3    0x1  Data  Gb  APP_Prg.o [1]
+SecurityLevel1           0x801'1613  0x12a  Code  Gb  APP_Prg.o [1]
+SecurityLevel1::SK_Local
+                        0x2000'0790    0x4  Data  Lc  APP_Prg.o [1]
+SecurityLevel1::i       0x2000'07d8    0x1  Data  Lc  APP_Prg.o [1]
+SecurityLevel1::lseed   0x2000'078c    0x4  Data  Lc  APP_Prg.o [1]
+SecurityLevel1::seedlokal
+                        0x2000'0788    0x4  Data  Lc  APP_Prg.o [1]
+SecurityLevel1::wortarray
+                        0x2000'071c   0x10  Data  Lc  APP_Prg.o [1]
+SecurityLevel1Req       0x2000'07d2    0x1  Data  Lc  APP_Prg.o [1]
+SecurityLevel1_Access   0x2000'07d5    0x1  Data  Gb  APP_Prg.o [1]
+SecurityLevel1_req       0x801'173d   0xb4  Code  Gb  APP_Prg.o [1]
+SecurityLevel2           0x801'17f1    0x6  Code  Gb  APP_Prg.o [1]
+SecurityLevelFBL         0x801'17f7    0x6  Code  Gb  APP_Prg.o [1]
+SessionChangeFlg        0x2000'0060    0x1  Data  Lc  APP_Prg.o [1]
+SetBcanTxen0             0x801'3409    0x8  Code  Gb  Srv_Com.o [1]
+Set_Seed_Flg            0x2000'07d0    0x1  Data  Lc  APP_Prg.o [1]
+SoftReset                0x801'15eb   0x28  Code  Gb  APP_Prg.o [1]
+SoftTimerInc             0x801'290f   0x5e  Code  Gb  SoftTimerDrv.o [1]
+SoftTimerInit            0x801'286d   0x28  Code  Gb  SoftTimerDrv.o [1]
+SoftTimerResultJudge     0x801'296d   0x1c  Code  Gb  SoftTimerDrv.o [1]
+SoftTimerStart           0x801'28db   0x34  Code  Gb  SoftTimerDrv.o [1]
+SoftTimerStop            0x801'28bb   0x20  Code  Gb  SoftTimerDrv.o [1]
+SoftWare                 0x803'fd20   0x10  Data  Gb  APP_Prg.o [1]
+SrvComInit               0x801'3293   0x4c  Code  Gb  Srv_Com.o [1]
+SrvComStep               0x801'32df   0xd4  Code  Gb  Srv_Com.o [1]
+SrvComStep::Pcan_Swaybar_1_Send_Count
+                        0x2000'0066    0x1  Data  Lc  Srv_Com.o [1]
+SrvIOInit                0x801'74e5   0x2a  Code  Gb  Srv_IO.o [1]
+StatusNotice            0x2000'07f2    0x1  Data  Lc  Swaybar.o [1]
+StuckLink               0x2000'07f5    0x1  Data  Lc  Swaybar.o [1]
+StuckPull               0x2000'07f4    0x1  Data  Lc  Swaybar.o [1]
+SupplManDate            0x2000'000c    0x4  Data  Gb  APP_Prg.o [1]
+SupplierID              0x2000'0000    0xc  Data  Gb  APP_Prg.o [1]
+FronSwaybarFault         0x2000'07b0    0x4  Data  Lc  Swaybar.o [1]
+Swaybar_DrvControl       0x801'71f9   0x36  Code  Lc  Swaybar.o [1]
+Swaybar_ErrorCheck       0x801'731b   0x92  Code  Lc  Swaybar.o [1]
+Swaybar_Mainfunction     0x801'73ad   0xf2  Code  Gb  Swaybar.o [1]
+Swaybar_Mainfunction::PreSwaybarIO
+                        0x2000'07f7    0x1  Data  Lc  Swaybar.o [1]
+Swaybar_Mainfunction::SwaybarSwSts
+                        0x2000'07f8    0x1  Data  Lc  Swaybar.o [1]
+Swaybar_StuckCheck       0x801'722f   0xec  Code  Lc  Swaybar.o [1]
+Swaybar_StuckCheck::PreDriverState
+                        0x2000'07f6    0x1  Data  Lc  Swaybar.o [1]
+Swaybar_StuckCheck::StuckLinkTm
+                        0x2000'07c6    0x2  Data  Lc  Swaybar.o [1]
+SysTick_Config           0x801'765d   0x30  Code  Lc  MAIN.o [1]
+SysTick_Handler          0x801'7d67    0x8  Code  Gb  gd32a50x_it.o [1]
+Sys_Tick_Set_Flag       0x2000'07f9    0x1  Data  Gb  TaskStep.o [1]
+SystemCoreClock         0x2000'0024    0x4  Data  Gb  system_gd32a50x.o [1]
+System_Control          0x2000'076c    0x8  Data  Gb  RTE.o [1]
+TP_AbortMsg              0x801'58d1   0x40  Code  Gb  TP_Prg.o [1]
+TP_ComNAsInd             0x801'5881   0x50  Code  Gb  TP_Prg.o [1]
+TP_DataBufferEmptyInd    0x801'218d    0xe  Code  Gb  EB_Prg.o [1]
+TP_GetMsgData            0x801'4e41   0x42  Code  Gb  TP_Prg.o [1]
+TP_Init                  0x801'4c89   0x6c  Code  Gb  TP_Prg.o [1]
+TP_Manage                0x801'5799   0xd8  Code  Gb  TP_Prg.o [1]
+TP_ReceiveConsecutiveFrame
+                         0x801'5125  0x194  Code  Lc  TP_Prg.o [1]
+TP_ReceiveFirstFrame     0x801'5017  0x10e  Code  Lc  TP_Prg.o [1]
+TP_ReceiveFlowControl    0x801'52b9  0x19a  Code  Lc  TP_Prg.o [1]
+TP_ReceiveFrame          0x801'4e83   0xaa  Code  Gb  TP_Prg.o [1]
+TP_ReceiveSingleFrame    0x801'4f2d   0xea  Code  Lc  TP_Prg.o [1]
+TP_RxEnable              0x801'4cf5   0x64  Code  Gb  TP_Prg.o [1]
+TP_RxEnableInd           0x801'22e5   0x24  Code  Gb  EB_Prg.o [1]
+TP_RxInd                 0x801'21bf  0x126  Code  Gb  EB_Prg.o [1]
+TP_SendConsecutiveFrame
+                         0x801'55c7  0x12c  Code  Lc  TP_Prg.o [1]
+TP_SendFirstFrame        0x801'54ff   0xc8  Code  Lc  TP_Prg.o [1]
+TP_SendFlowControl       0x801'56f3   0xa6  Code  Lc  TP_Prg.o [1]
+TP_SendMsg               0x801'4d59   0x58  Code  Gb  TP_Prg.o [1]
+TP_SendSingleFrame       0x801'5453   0xac  Code  Lc  TP_Prg.o [1]
+TP_SetMsgData            0x801'4db1   0x90  Code  Gb  TP_Prg.o [1]
+TP_TxConf                0x801'219b   0x24  Code  Gb  EB_Prg.o [1]
+Task10msOffset0ms        0x801'7995   0x20  Code  Gb  TaskStep.o [1]
+Task20msOffset0ms        0x801'792d   0x50  Code  Gb  TaskStep.o [1]
+Task20msOffset10ms       0x801'79b5    0x2  Code  Gb  TaskStep.o [1]
+Task5msOffset0ms         0x801'79b7    0x2  Code  Gb  TaskStep.o [1]
+TesterPresent            0x801'19ed    0x6  Code  Gb  APP_Prg.o [1]
+Tester_Absent_Flg       0x2000'0061    0x1  Data  Gb  APP_Prg.o [1]
+TransferData             0x801'1ac1    0x6  Code  Gb  APP_Prg.o [1]
+UDS_AnswerOrNot          0x801'1119   0x32  Code  Lc  UDS_Prg.o [1]
+UDS_DiagSession          0x801'1151  0x124  Code  Lc  UDS_Prg.o [1]
+UDS_DidFiltering         0x801'09dd   0x98  Code  Lc  UDS_Prg.o [1]
+UDS_FilteringCfg1        0x801'0283  0x140  Code  Lc  UDS_Prg.o [1]
+UDS_FilteringCfg2        0x801'06f7   0xca  Code  Lc  UDS_Prg.o [1]
+UDS_FilteringCfg3        0x801'0a85   0xfa  Code  Lc  UDS_Prg.o [1]
+UDS_GetRoutineStatus     0x801'100b   0x62  Code  Lc  UDS_Prg.o [1]
+UDS_Init                 0x801'0041   0x4a  Code  Gb  UDS_Prg.o [1]
+UDS_LongRequestRespTxConf
+                         0x801'13db    0x8  Code  Gb  UDS_Prg.o [1]
+UDS_LongRequestResponseInd
+                         0x801'231d   0x4a  Code  Gb  EB_Prg.o [1]
+UDS_Manage               0x801'1281  0x15a  Code  Gb  UDS_Prg.o [1]
+UDS_NegativeAnswer       0x801'106d   0x5c  Code  Lc  UDS_Prg.o [1]
+UDS_P2AboutToExpireInd   0x801'149b    0x2  Code  Gb  APP_Prg.o [1]
+UDS_PositiveAnswer       0x801'10c9   0x50  Code  Lc  UDS_Prg.o [1]
+UDS_RiFiltering          0x801'0e61   0xc4  Code  Lc  UDS_Prg.o [1]
+UDS_RxRequestWithAddrMode
+                         0x801'008b  0x1f8  Code  Gb  UDS_Prg.o [1]
+UDS_ServiceFiltering1    0x801'03c3   0x8c  Code  Lc  UDS_Prg.o [1]
+UDS_ServiceFiltering2    0x801'07c1   0x88  Code  Lc  UDS_Prg.o [1]
+UDS_ServiceFiltering3    0x801'0b8d   0x82  Code  Lc  UDS_Prg.o [1]
+UDS_SessionFiltering1    0x801'0521  0x1d6  Code  Lc  UDS_Prg.o [1]
+UDS_SessionFiltering2    0x801'0849  0x194  Code  Lc  UDS_Prg.o [1]
+UDS_SessionFiltering3    0x801'0ccb  0x190  Code  Lc  UDS_Prg.o [1]
+UDS_SessionStatusInd     0x801'2309   0x14  Code  Gb  EB_Prg.o [1]
+UDS_StartRoutineControl
+                         0x801'0f29   0x70  Code  Lc  UDS_Prg.o [1]
+UDS_StopRoutineControl   0x801'0f99   0x72  Code  Lc  UDS_Prg.o [1]
+UDS_SubServiceFiltering1
+                         0x801'044f   0xd2  Code  Lc  UDS_Prg.o [1]
+UDS_SubServiceFiltering3
+                         0x801'0c25   0xa6  Code  Lc  UDS_Prg.o [1]
+VEH_Parameter           0x2000'0764    0x8  Data  Gb  eepromapi.o [1]
+VINDataIdentifier        0x801'1b11   0x2e  Code  Gb  APP_Prg.o [1]
+VINDataIdentifier_2E     0x801'1acd   0x44  Code  Gb  APP_Prg.o [1]
+VariableInitialization   0x801'7845   0x46  Code  Gb  RTE.o [1]
+Vehicle_VIN             0x2000'0708   0x14  Data  Gb  Srv_Com.o [1]
+WDT_Disable             0x2000'07d6    0x1  Data  Gb  APP_Prg.o [1]
+WriteEEromPatameter      0x801'2371   0x90  Code  Gb  eepromapi.o [1]
+WriteEepromSecurityAccessErrCnt
+                         0x801'278d   0x72  Code  Gb  eepromapi.o [1]
+WriteMemoryByAddress     0x801'1a21    0x6  Code  Gb  APP_Prg.o [1]
+WriteParaToFlash         0x801'26d1   0xbc  Code  Gb  eepromapi.o [1]
+_Rand_idx               0x2000'03d8    0x4  Data  Lc  rand.o [2]
+_Rand_rv                0x2000'0358   0x80  Data  Lc  rand.o [2]
+_Randinit               0x2000'0058    0x1  Data  Gb  rand.o [2]
+_Randseed               0x2000'005c    0x4  Data  Gb  rand.o [2]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'7fff         Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0000         Data  Gb  <internal module>
+__NVIC_SetPriority       0x801'7631   0x2c  Code  Lc  MAIN.o [1]
+__NVIC_SystemReset       0x801'7895   0x1a  Code  Lc  TaskStep.o [1]
+__aeabi_memclr4          0x801'2991         Code  Gb  ABImemclr4.o [4]
+__aeabi_memset           0x801'5a15         Code  Gb  ABImemset.o [4]
+__cmain                  0x801'7fa5         Code  Gb  cmain.o [4]
+__exit                   0x801'7fd9   0x14  Code  Gb  exit.o [5]
+__iar_Memset             0x801'5a15         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word       0x801'59e1         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x801'59e1         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word        0x801'5a1d         Code  Gb  ABImemset.o [4]
+__iar_data_init3         0x801'7f39   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x801'7f61         Code  Gb  fpinit_M.o [3]
+__iar_packbits_init_single3
+                         0x801'7ea5   0x38  Code  Gb  packbits_init_single.o [4]
+__iar_program_start      0x801'8025         Code  Gb  cstartup_M.o [4]
+__iar_unaligned_memcpy   0x801'5a7d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy4
+                         0x801'5a9d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned_memcpy8
+                         0x801'5a9d         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3         0x801'1fbf   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x801'7fc3    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x801'0000         Data  Gb  vector_table_M.o [4]
+_call_main               0x801'7fb1         Code  Gb  cmain.o [4]
+_exit                    0x801'7fcd         Code  Gb  cexit.o [4]
+_main                    0x801'7fbf         Code  Gb  cmain.o [4]
+adc_calibration_enable   0x801'6a69   0x36  Code  Gb  gd32a50x_adc.o [1]
+adc_channel_length_config
+                         0x801'6b53   0x64  Code  Gb  gd32a50x_adc.o [1]
+adc_data_alignment_config
+                         0x801'6b2b   0x28  Code  Gb  gd32a50x_adc.o [1]
+adc_enable               0x801'6a4d   0x1c  Code  Gb  gd32a50x_adc.o [1]
+adc_external_trigger_config
+                         0x801'6cf1   0x60  Code  Gb  gd32a50x_adc.o [1]
+adc_external_trigger_source_config
+                         0x801'6d51   0x54  Code  Gb  gd32a50x_adc.o [1]
+adc_flag_clear           0x801'6e23    0x6  Code  Gb  gd32a50x_adc.o [1]
+adc_flag_get             0x801'6e11   0x12  Code  Gb  gd32a50x_adc.o [1]
+adc_inserted_data_read   0x801'6dcf   0x3c  Code  Gb  gd32a50x_adc.o [1]
+adc_mode_config          0x801'6a9f   0x14  Code  Gb  gd32a50x_adc.o [1]
+adc_regular_channel_config
+                         0x801'6bb7  0x13a  Code  Gb  gd32a50x_adc.o [1]
+adc_software_trigger_enable
+                         0x801'6da5   0x2a  Code  Gb  gd32a50x_adc.o [1]
+adc_special_function_config
+                         0x801'6ab3   0x78  Code  Gb  gd32a50x_adc.o [1]
+akeys                   0x2000'0784    0x4  Data  Lc  APP_Prg.o [1]
+app_vector {Abs}         0x801'0000         Data  Gb  <internal module>
+aubDiag1Data            0x2000'0068  0x12c  Data  Lc  TP_Cfg.o [1]
+aubDiag2Data            0x2000'0194  0x12c  Data  Lc  TP_Cfg.o [1]
+calData                 0x2000'07a8    0x4  Data  Gb  EncryptAlg1.o [1]
+can_auto_busoff_recovery_enable
+                         0x801'6105    0xe  Code  Gb  gd32a50x_can.o [1]
+can_data_to_big_endian_swap
+                         0x801'6149   0x7a  Code  Lc  gd32a50x_can.o [1]
+can_deinit               0x801'5af5   0x36  Code  Gb  gd32a50x_can.o [1]
+can_dlc_value_compute    0x801'61c3   0x2c  Code  Lc  gd32a50x_can.o [1]
+can_error_state_get      0x801'60e1   0x18  Code  Gb  gd32a50x_can.o [1]
+can_init                 0x801'5b55  0x188  Code  Gb  gd32a50x_can.o [1]
+can_interrupt_enable     0x801'6113   0x32  Code  Gb  gd32a50x_can.o [1]
+can_mailbox_config       0x801'5f43  0x194  Code  Gb  gd32a50x_can.o [1]
+can_operation_mode_enter
+                         0x801'5dd5  0x142  Code  Gb  gd32a50x_can.o [1]
+can_private_filter_config
+                         0x801'5dc9    0xc  Code  Gb  gd32a50x_can.o [1]
+can_ram_address_get      0x801'5f17   0x2c  Code  Gb  gd32a50x_can.o [1]
+can_software_reset       0x801'5b2b   0x2a  Code  Gb  gd32a50x_can.o [1]
+can_struct_para_init     0x801'5cdd   0xec  Code  Gb  gd32a50x_can.o [1]
+dflash_size_get          0x801'2f95   0xcc  Code  Gb  gd32a50x_fmc.o [1]
+eeprom_word_program      0x801'2dd7   0x3e  Code  Gb  gd32a50x_fmc.o [1]
+eeprom_word_read         0x801'2e15   0x1c  Code  Gb  gd32a50x_fmc.o [1]
+exit                     0x801'7fc7    0x4  Code  Gb  exit.o [2]
+fmc_bank0_flags_clear    0x801'2b5b   0x3c  Code  Lc  gd32a50x_fmc.o [1]
+fmc_bank0_ready_wait     0x801'31cd   0x2c  Code  Lc  gd32a50x_fmc.o [1]
+fmc_bank0_state_get      0x801'3119   0x5a  Code  Lc  gd32a50x_fmc.o [1]
+fmc_bank1_flags_clear    0x801'2b97   0x3c  Code  Lc  gd32a50x_fmc.o [1]
+fmc_bank1_ready_wait     0x801'31f9   0x2c  Code  Lc  gd32a50x_fmc.o [1]
+fmc_bank1_state_get      0x801'3173   0x5a  Code  Lc  gd32a50x_fmc.o [1]
+fmc_blank_check          0x801'2ac5   0x96  Code  Gb  gd32a50x_fmc.o [1]
+fmc_cache_disable        0x801'29f7    0xe  Code  Gb  gd32a50x_fmc.o [1]
+fmc_cache_enable         0x801'29e9    0xe  Code  Gb  gd32a50x_fmc.o [1]
+fmc_cache_reset_disable
+                         0x801'2a13    0xe  Code  Gb  gd32a50x_fmc.o [1]
+fmc_cache_reset_enable   0x801'2a05    0xe  Code  Gb  gd32a50x_fmc.o [1]
+fmc_fast_program         0x801'2c7b  0x15c  Code  Gb  gd32a50x_fmc.o [1]
+fmc_flag_clear           0x801'3087   0x2a  Code  Gb  gd32a50x_fmc.o [1]
+fmc_flag_get             0x801'3061   0x26  Code  Gb  gd32a50x_fmc.o [1]
+fmc_interrupt_flag_clear
+                         0x801'30f3   0x22  Code  Gb  gd32a50x_fmc.o [1]
+fmc_interrupt_flag_get   0x801'30b1   0x42  Code  Gb  gd32a50x_fmc.o [1]
+fmc_lock                 0x801'29cf   0x1a  Code  Gb  gd32a50x_fmc.o [1]
+fmc_page_erase           0x801'2bd3   0xa8  Code  Gb  gd32a50x_fmc.o [1]
+fmc_sram_mode_config     0x801'2a21   0x7c  Code  Gb  gd32a50x_fmc.o [1]
+fmc_sram_mode_get        0x801'2a9d   0x28  Code  Gb  gd32a50x_fmc.o [1]
+fmc_sram_mode_ready_wait
+                         0x801'3225    0xa  Code  Lc  gd32a50x_fmc.o [1]
+fmc_unlock               0x801'2999   0x36  Code  Gb  gd32a50x_fmc.o [1]
+fwdgt_config             0x801'6205   0x6e  Code  Gb  gd32a50x_fwdgt.o [1]
+fwdgt_counter_reload     0x801'61fb    0xa  Code  Gb  gd32a50x_fwdgt.o [1]
+fwdgt_enable             0x801'61f1    0xa  Code  Gb  gd32a50x_fwdgt.o [1]
+g_receive_message       0x2000'06cc   0x14  Data  Gb  CAN.o [1]
+g_transmit_message      0x2000'06b8   0x14  Data  Gb  CAN.o [1]
+gpio_af_set              0x801'68e5   0x7e  Code  Gb  gd32a50x_gpio.o [1]
+gpio_bit_reset           0x801'68c9    0x8  Code  Gb  gd32a50x_gpio.o [1]
+gpio_input_bit_get       0x801'68d1   0x14  Code  Gb  gd32a50x_gpio.o [1]
+gpio_mode_set            0x801'6809   0x62  Code  Gb  gd32a50x_gpio.o [1]
+gpio_output_options_set
+                         0x801'686b   0x5e  Code  Gb  gd32a50x_gpio.o [1]
+ic_wakeup_src           0x2000'07e7    0x1  Data  Gb  LowPowerApi.o [1]
+itpSoftTimer            0x2000'02c0   0x98  Data  Lc  SoftTimerDrv.o [1]
+mTaskTab                0x2000'0028   0x30  Data  Lc  TaskStep.o [1]
+m_ComaaubData           0x2000'06a0   0x18  Data  Gb  COM_Prg.o [1]
+m_aaubComFrameComLossData
+                         0x801'8004   0x10  Data  Gb  COM_Cfg.o [1]
+m_aaubComFrameComLossMask
+                         0x801'8014   0x10  Data  Gb  COM_Cfg.o [1]
+m_aaubComFrameInitData   0x801'7fec   0x18  Data  Gb  COM_Cfg.o [1]
+m_aeComMonOldStatus     0x2000'07df    0x1  Data  Lc  COM_Prg.o [1]
+m_aeFrameStatus         0x2000'07c4    0x2  Data  Lc  COM_Prg.o [1]
+m_astDiagSrvCfg1         0x801'7a00  0x168  Data  Gb  UDS_Cfg.o [1]
+m_astDiagSrvCfg2         0x801'7dc4   0xe0  Data  Gb  UDS_Cfg.o [1]
+m_astDiagSrvCfg3         0x801'7b68  0x120  Data  Gb  UDS_Cfg.o [1]
+m_astTpMsg              0x2000'0660   0x40  Data  Lc  TP_Prg.o [1]
+m_astTpMsgCfg            0x801'7f10   0x28  Data  Gb  TP_Cfg.o [1]
+m_auComFrameExTime       0x801'804c    0x4  Data  Gb  COM_Cfg.o [1]
+m_auComFrameExTimeCnt   0x2000'079c    0x4  Data  Lc  COM_Prg.o [1]
+m_auComFrameFirstPeriod
+                         0x801'8044    0x4  Data  Gb  COM_Cfg.o [1]
+m_auComFramePeriod       0x801'8040    0x4  Data  Gb  COM_Cfg.o [1]
+m_auComFramePeriodCnt   0x2000'07a0    0x4  Data  Lc  COM_Prg.o [1]
+m_auComFrameTxTimeout    0x801'8048    0x4  Data  Gb  COM_Cfg.o [1]
+m_auComMonFrameIdx       0x801'5a7a    0x1  Data  Gb  COM_Cfg.o [1]
+m_aubComFrameConfig      0x801'803c    0x4  Data  Gb  COM_Cfg.o [1]
+m_aubComFrameLenNominal
+                         0x801'8038    0x4  Data  Gb  COM_Cfg.o [1]
+m_aubComMonFilterCnt    0x2000'07e0    0x1  Data  Lc  COM_Prg.o [1]
+m_aubComMonFilterNok     0x801'5af2    0x1  Data  Gb  COM_Cfg.o [1]
+m_aubComMonFilterOk      0x801'5a7b    0x1  Data  Gb  COM_Cfg.o [1]
+m_aubRxEnableCnt        0x2000'07b8    0x4  Data  Lc  TP_Prg.o [1]
+m_aubRxFrameLen         0x2000'07c2    0x2  Data  Lc  COM_Prg.o [1]
+m_aubStatus             0x2000'0798    0x4  Data  Gb  COM_Prg.o [1]
+m_auwComFrameIdent       0x801'8030    0x8  Data  Gb  COM_Cfg.o [1]
+m_eBusOffState          0x2000'07d9    0x1  Data  Lc  CAN_Prg.o [1]
+m_eComMode              0x2000'07db    0x1  Data  Lc  COM_Prg.o [1]
+m_eComModeDefaultValue   0x801'5af3    0x1  Data  Gb  COM_Cfg.o [1]
+m_eComNodeConfStatus    0x2000'07e1    0x1  Data  Lc  COM_Prg.o [1]
+m_eCtrlState            0x2000'07da    0x1  Data  Lc  CAN_Prg.o [1]
+m_eSessionCode          0x2000'07c8    0x2  Data  Lc  UDS_Prg.o [1]
+m_eSessionCodeDefaultValue
+                         0x801'2996    0x2  Data  Gb  UDS_Cfg.o [1]
+m_eSessionMask          0x2000'07ca    0x2  Data  Lc  UDS_Prg.o [1]
+m_eSessionMaskDefaultValue
+                         0x801'4c86    0x2  Data  Gb  UDS_Cfg.o [1]
+m_eSuppresPosRspMsgIndicationBit
+                        0x2000'07fc    0x1  Data  Lc  UDS_Prg.o [1]
+m_eUdsAddrMode          0x2000'07ff    0x1  Data  Lc  UDS_Prg.o [1]
+m_ebTxMailboxStatus     0x2000'07dc    0x1  Data  Lc  COM_Prg.o [1]
+m_stRoutine             0x2000'07bc    0x4  Data  Lc  UDS_Prg.o [1]
+m_stTxFrameIdxFifo      0x2000'0794    0x4  Data  Lc  COM_Prg.o [1]
+m_uSessionTimeCnt       0x2000'07fa    0x1  Data  Lc  UDS_Prg.o [1]
+m_uSrvIdx               0x2000'07fb    0x1  Data  Lc  UDS_Prg.o [1]
+m_uStartSrvIdx          0x2000'07fd    0x1  Data  Lc  UDS_Prg.o [1]
+m_uStartSubSrvIdx       0x2000'07fe    0x1  Data  Lc  UDS_Prg.o [1]
+m_uTpBufferCnt          0x2000'07b4    0x4  Data  Lc  TP_Prg.o [1]
+m_uTxFrameIdx           0x2000'07dd    0x1  Data  Lc  COM_Prg.o [1]
+m_uTxTimeoutCnt         0x2000'07de    0x1  Data  Lc  COM_Prg.o [1]
+m_uUdsSessTimeout        0x801'61ee    0x1  Data  Gb  UDS_Cfg.o [1]
+m_uUdsSrvCfg1Max         0x801'61ef    0x1  Data  Gb  UDS_Cfg.o [1]
+m_uUdsSrvCfg2Max         0x801'6962    0x1  Data  Gb  UDS_Cfg.o [1]
+m_uUdsSrvCfg3Max         0x801'6963    0x1  Data  Gb  UDS_Cfg.o [1]
+m_ubDiagManageCnt       0x2000'07e6    0x1  Data  Lc  EB_Prg.o [1]
+m_ubItContext           0x2000'07d7    0x1  Data  Lc  APP_Prg.o [1]
+m_ubTpMsgIdxNrc78       0x2000'07e5    0x1  Data  Lc  EB_Prg.o [1]
+m_uwDid                 0x2000'07cc    0x2  Data  Lc  UDS_Prg.o [1]
+m_uwRi                  0x2000'07ce    0x2  Data  Lc  UDS_Prg.o [1]
+main                     0x801'778d   0x14  Code  Gb  MAIN.o [1]
+msg_ABS_3_Timeout        0x801'33f5    0xc  Code  Lc  Srv_Com.o [1]
+msg_AWD_1_Timeout        0x801'3401    0x8  Code  Lc  Srv_Com.o [1]
+msg_TCU_3_Timeout        0x801'33ed    0x8  Code  Lc  Srv_Com.o [1]
+nvic_irq_enable          0x801'696f   0xcc  Code  Gb  gd32a50x_misc.o [1]
+nvic_priority_group_set
+                         0x801'6965    0xa  Code  Gb  gd32a50x_misc.o [1]
+ob1_eeprom_parameter_config
+                         0x801'2f3d   0x52  Code  Gb  gd32a50x_fmc.o [1]
+ob_erase                 0x801'2e6f   0x9a  Code  Gb  gd32a50x_fmc.o [1]
+ob_lock                  0x801'2e53    0xe  Code  Gb  gd32a50x_fmc.o [1]
+ob_plevel_get            0x801'2f21    0xe  Code  Gb  gd32a50x_fmc.o [1]
+ob_reset                 0x801'2e61    0xe  Code  Gb  gd32a50x_fmc.o [1]
+ob_unlock                0x801'2e31   0x22  Code  Gb  gd32a50x_fmc.o [1]
+pmu_to_standbymode       0x801'79b9   0x30  Code  Gb  gd32a50x_pmu.o [1]
+pmu_wakeup_pin_enable    0x801'79e9    0xa  Code  Gb  gd32a50x_pmu.o [1]
+rand                     0x801'3445   0x94  Code  Gb  rand.o [2]
+rcu_adc_clock_config     0x801'677d   0x14  Code  Gb  gd32a50x_rcu.o [1]
+rcu_all_reset_flag_clear
+                         0x801'67e9    0xc  Code  Gb  gd32a50x_rcu.o [1]
+rcu_can_clock_config     0x801'6791   0x38  Code  Gb  gd32a50x_rcu.o [1]
+rcu_flag_get             0x801'67c9   0x20  Code  Gb  gd32a50x_rcu.o [1]
+rcu_periph_clock_enable
+                         0x801'6705   0x28  Code  Gb  gd32a50x_rcu.o [1]
+rcu_periph_reset_disable
+                         0x801'6755   0x28  Code  Gb  gd32a50x_rcu.o [1]
+rcu_periph_reset_enable
+                         0x801'672d   0x28  Code  Gb  gd32a50x_rcu.o [1]
+returnKey               0x2000'07ac    0x4  Data  Gb  EncryptAlg1.o [1]
+rx_data                 0x2000'075c    0x8  Data  Gb  CAN.o [1]
+seedArray               0x2000'07a4    0x4  Data  Gb  EncryptAlg1.o [1]
+seedToKeyLevel1          0x801'34f5   0x98  Code  Gb  EncryptAlg1.o [1]
+srand                    0x801'34d9    0xa  Code  Gb  rand.o [2]
+strLongRequest          0x2000'074c   0x10  Data  Lc  UDS_Prg.o [1]
+syscfg_flag_clear        0x801'7db7    0xa  Code  Gb  gd32a50x_syscfg.o [1]
+syscfg_flag_get          0x801'7da5   0x12  Code  Gb  gd32a50x_syscfg.o [1]
+systemSupplierECUHardwareNumber
+                         0x801'1b3f   0x2e  Code  Gb  APP_Prg.o [1]
+systemSupplierECUSoftwareNumber
+                         0x801'1b6d   0x2e  Code  Gb  APP_Prg.o [1]
+systemSupplierIdentifierDataIdentifier
+                         0x801'1dcb   0x2c  Code  Gb  APP_Prg.o [1]
+systick_config           0x801'7749   0x22  Code  Lc  MAIN.o [1]
+timer_channel_capture_value_register_read
+                         0x801'717d   0x7c  Code  Gb  gd32a50x_timer.o [1]
+vehicleManufacturerECUHardwareNumberDataIdentifier
+                         0x801'1cbb   0x2c  Code  Gb  APP_Prg.o [1]
+vehicleManufacturerECUSoftwareNumberDataIdentifier
+                         0x801'1c8f   0x2c  Code  Gb  APP_Prg.o [1]
+vehicleManufacturerSparePartNumber
+                         0x801'1bc9   0x2e  Code  Gb  APP_Prg.o [1]
+xorArray                0x2000'0020    0x4  Data  Gb  EncryptAlg1.o [1]
+
+
+[1] = E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  31 750 bytes of readonly  code memory
+   1 184 bytes of readonly  data memory (+ 67 absolute)
+   4 095 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

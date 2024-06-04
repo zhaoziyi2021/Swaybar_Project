@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "scu.h": "c",
+        "scu_cfg.h": "c",
+        "ncs_types.h": "c",
+        "gd32a50x_can.h": "c",
+        "autosar_nm.h": "c",
+        "eb_prj.h": "c",
+        "xc22xxnregs.h": "c",
+        "io.h": "c",
+        "lowpowerapi.h": "c",
+        "adc0.h": "c",
+        "swaybar.h": "c",
+        "can.h": "c",
+        "taskstep.h": "c",
+        "canbusoff.h": "c",
+        "gd32a50x_fmc.h": "c",
+        "eepromapi.h": "c",
+        "encryptalg1.h": "c"
+    }
+}

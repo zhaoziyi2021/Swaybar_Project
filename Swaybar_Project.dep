@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2563173361</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\CANStack\TP\TP_Cfg.c</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Trcv.c</file>
+            <file>$PROJ_DIR$\CANStack\COM\COM_Cbk.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Cfg.c</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Cfg.c</file>
+            <file>$PROJ_DIR$\CANStack\TP\TP_Cfg.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Pub.h</file>
+            <file>$PROJ_DIR$\CANStack\TP\TP_Prg.c</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Types.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\COM_Cfg.c</file>
+            <file>$PROJ_DIR$\CANStack\COM\IL_Prg.c</file>
+            <file>$PROJ_DIR$\CANStack\TP\TP_Pub.h</file>
+            <file>$PROJ_DIR$\CANStack\TP\TP_Types.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\COM_Cfg.h</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Prg.c</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Cfg.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Prg.c</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Cfg.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Types.h</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Prj.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Irq.c</file>
+            <file>$PROJ_DIR$\CANStack\COM\IL_Cbk.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\IL_Pub.h</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Pub.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Hw.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\COM_Pub.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\IL_Types.h</file>
+            <file>$PROJ_DIR$\CANStack\TP\TP_Cbk.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\IL_Cfg.h</file>
+            <file>$PROJ_DIR$\CANStack\EB\EB_Cbk.h</file>
+            <file>$PROJ_DIR$\CANStack\COM\COM_Prg.c</file>
+            <file>$PROJ_DIR$\CANStack\COM\COM_Types.h</file>
+            <file>$PROJ_DIR$\CANStack\APP\APP_Prg.c</file>
+            <file>$PROJ_DIR$\CANStack\APP\APP_Pub.h</file>
+            <file>$PROJ_DIR$\CANStack\APP\APP_Types.h</file>
+            <file>$PROJ_DIR$\CANStack\CAN\CAN_Cbk.h</file>
+            <file>$PROJ_DIR$\CANStack\APP\APP_Cbk.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_exti.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_adc.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_fmc.h</file>
+            <file>$PROJ_DIR$\Debug\List\Swaybar_Project.map</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_timer.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_trigsel.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\DTC.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Swaybar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LowPowerApi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\Swaybar_Project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\eepromapi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_rcu.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UDS_Cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_usart.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\EB_Cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_cmp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dac.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_trigsel.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\core_cm33.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Cfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\UDS_Cfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_can.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_timer.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MAIN.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\MAIN.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RTE.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\TP_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Srv_Com.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_it.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.__cstat.et</file>
+            <file>$PROJ_DIR$\Core_include\mpu_armv8.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_wwdgt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\UDS_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_misc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\COM_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_gd32a50x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_gd32a50x.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_pmu.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_bkp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\IL_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_adc.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_usart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_pmu.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\COM_Cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_rtc.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\STDDEF.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\TP_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\Swaybar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_fmc.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503VC_APP.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_gd32a50x.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Irq.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_rtc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Trcv.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\ERROR_interrupt\gd32a50x_it.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LowPowerApi.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_cmp.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\EB_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_crc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\EncryptAlg1.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_syscfg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_fwdgt.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_misc.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_gpio.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\gd32a50x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Swaybar_Project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TP_Cfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\TaskStep.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TP_Prg.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_spi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\EB_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_mfcom.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_spi.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_timer.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_can.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_dma.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_can.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CANBusOff.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Srv_IO.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CANBusOff.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dma.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_trigsel.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_dac.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\RTE.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\XC22xxNREGS.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_bkp.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_crc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dbg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Trcv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_cmp.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\UDS_Prg.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_exti.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dbg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\EB_Cfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_spi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\COM_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_trigsel.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_crc.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_fmc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\EncryptAlg1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Srv_IO.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CANBusOff.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_syscfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_dbg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_pmu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Srv_Com.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\TP_Cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_misc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\TaskStep.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\TP_Cfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Srv_IO.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\DTC.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\EB_Cfg.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\IO.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Cfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\DTC.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_rcu.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_rtc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_rcu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\IL_Prg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Irq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\APP_Prg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\COM_Cfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_pmu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_mfcom.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_fwdgt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_rtc.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\RTE.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_cmp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Trcv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_adc.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_bkp.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_it.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_fmc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_can.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\APP_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_misc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CAN.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LowPowerApi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SoftTimerDrv.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_fwdgt.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_it.__cstat.et</file>
+            <file>$PROJ_DIR$\MAIN.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CANBusOff.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Swaybar_Project.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_i2c.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_fwdgt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\TaskStep.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_usart.pbi</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_dbg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Prg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\EB_Prg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SoftTimerDrv.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\COM_Prg.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\EncryptAlg1.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_bkp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Swaybar.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Cfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\IL_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Swaybar.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\UDS_Cfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_rcu.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\APP_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_gd32a50x.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\COM_Cfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_syscfg.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Srv_Com.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Prg.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_wwdgt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_wwdgt.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_timer.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_libopt.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_mfcom.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_wwdgt.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\CAN_Irq.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_syscfg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\gd32a50x_mfcom.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\UDS_Prg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\SoftTimerDrv.o</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Include\gd32a50x_exti.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\system_gd32a50x.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\eepromapi.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\eepromapi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MAIN.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_adc.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_crc.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_dbg.c</file>
+            <file>$PROJ_DIR$\CANStack\UDS\UDS_Pub.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_dac.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_dma.c</file>
+            <file>$PROJ_DIR$\Encrypt\EncryptAlg1.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_exti.c</file>
+            <file>$PROJ_DIR$\EEPROM\eepromapi.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_fwdgt.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_fmc.c</file>
+            <file>$PROJ_DIR$\CANStack\Types\ncs_limits.h</file>
+            <file>$PROJ_DIR$\CANStack\Types\ncs_cbk.h</file>
+            <file>$PROJ_DIR$\CANStack\Types\ncs_types.h</file>
+            <file>$PROJ_DIR$\CANStack\Types\ncs.h</file>
+            <file>$PROJ_DIR$\CANStack\UDS\UDS_Cfg.h</file>
+            <file>$PROJ_DIR$\CANStack\UDS\UDS_Prg.c</file>
+            <file>$PROJ_DIR$\DTC\DTC.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_bkp.c</file>
+            <file>$PROJ_DIR$\CANStack\Types\ncs_sdf.h</file>
+            <file>$PROJ_DIR$\CANStack\Types\ncs_macro.h</file>
+            <file>$PROJ_DIR$\DTC\DTC.h</file>
+            <file>$PROJ_DIR$\ERROR_interrupt\gd32a50x_it.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_cmp.c</file>
+            <file>$PROJ_DIR$\Encrypt\EncryptAlg1.h</file>
+            <file>$PROJ_DIR$\CANStack\UDS\UDS_Cbk.h</file>
+            <file>$PROJ_DIR$\EEPROM\eepromapi.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_can.c</file>
+            <file>$PROJ_DIR$\CANStack\UDS\UDS_Cfg.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\system_gd32a50x.c</file>
+            <file>$PROJ_DIR$\CANStack\UDS\UDS_Types.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CMSIS\startup_gd32a50x.s</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_rcu.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\IO.c</file>
+            <file>$PROJ_DIR$\RTE\RTE.c</file>
+            <file>$PROJ_DIR$\RTE\RTE.h</file>
+            <file>$PROJ_DIR$\Service\Srv_IO.c</file>
+            <file>$PROJ_DIR$\SoftTimer\SoftTimerAppExt.h</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_mfcom.c</file>
+            <file>$PROJ_DIR$\SoftTimer\SoftTimerCfgExt.h</file>
+            <file>$PROJ_DIR$\Service\Service.h</file>
+            <file>$PROJ_DIR$\SoftTimer\SoftTimerDrv.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_gpio.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_spi.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_syscfg.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CAN.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_misc.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_pmu.c</file>
+            <file>$PROJ_DIR$\SoftTimer\SoftTimerDrv.h</file>
+            <file>$PROJ_DIR$\Task\TaskStep.c</file>
+            <file>$PROJ_DIR$\Task\TaskStep.h</file>
+            <file>$PROJ_DIR$\Service\Srv_Com.c</file>
+            <file>$PROJ_DIR$\LowPower\LowPowerApi.h</file>
+            <file>$PROJ_DIR$\MAIN.c</file>
+            <file>$PROJ_DIR$\Swaybar.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_i2c.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_timer.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_usart.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_rtc.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_wwdgt.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_trigsel.c</file>
+            <file>$PROJ_DIR$\LowPower\LowPowerApi.c</file>
+            <file>$PROJ_DIR$\GD32A503_Drv\CANBusOff.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 47 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\TP\TP_Cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 273 179 12 15 264 36 275 127 135 6 13 21 274 228 144 43 119 31 8 22 33 5 35 286 214 281 146 91 301 269 60 74 51 200 40 104 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\CAN\CAN_Trcv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 36 264 275 12 15 273 127 135 6 13 21 274 228 144 43 119 31 8 22 33 5 35 286 214 281 146 91 301 269 60 74 51 200 40 104 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\CAN\CAN_Cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 232</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 28 18 272 25 27 127 135 291 23 24 208 228 144 43 119 26 34 11 17 276 2 29 280 91 301 269 60 74 51 200 40 104 275 31 12 8 6 22 264 33 13 5 15 35 21 286 36 214 274 281 273 146 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\EB\EB_Cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 208 23 291 24 127 135 18 25 28 27 272 228 144 43 119 26 34 11 17 276 2 29 280 91 301 269 60 74 51 200 40 104 275 31 12 8 6 22 264 33 13 5 15 35 21 286 36 214 274 281 273 146 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\TP\TP_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 5 31 281 22 286 127 135 8 33 35 214 274 146 228 144 43 119 275 12 6 264 13 15 21 36 273 91 301 269 60 74 51 200 40 104 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\COM\COM_Cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 28 179 18 272 25 27 127 135 291 23 24 208 228 144 43 119 26 34 11 17 276 2 29 280 91 301 269 60 74 51 200 40 104 275 31 12 8 6 22 264 33 13 5 15 35 21 286 36 214 274 281 273 146 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\COM\IL_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 286 22 31 5 281 127 135 8 33 35 214 274 146 228 144 43 119 275 12 6 264 13 15 21 36 273 91 301 269 60 74 51 200 40 104 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\EB\EB_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 126</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 35 8 274 33 214 146 127 135 31 22 5 286 281 228 144 43 119 275 12 6 264 13 15 21 36 273 91 301 269 60 74 51 200 40 104 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\CAN\CAN_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 34 2 17 127 135 26 11 276 29 280 228 144 43 119 18 291 25 23 28 24 27 208 272 91 301 269 60 74 51 200 40 104 275 214 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273 146 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\CAN\CAN_Irq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 187</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 251</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 208 23 291 24 127 135 18 25 28 27 272 228 144 43 119 26 34 11 17 276 2 29 280 91 301 269 60 74 51 200 40 104 275 31 12 8 6 22 264 33 13 5 15 35 21 286 36 214 274 281 273 146 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\COM\COM_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 226</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 215 272 28 118 119 25 27 91 146 112 300 291 23 24 208 282 53 109 115 143 26 34 11 17 276 2 29 280 227 313 285 134 83 244 298 97 275 31 12 8 6 22 264 33 13 5 15 35 21 286 36 214 274 281 273 84 139 132 209 311 309 40 60 74 51 200 144 127 104 43 135 19 248 179 301 296 228 269 99 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\APP\APP_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 264 36 12 15 273 127 135 275 6 13 21 274 228 144 43 119 31 8 22 33 5 35 286 214 281 91 301 269 60 74 51 200 40 104 19 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 146 248 296 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Swaybar_Project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 101 188 82 180 187 223 105 166 189 226 44 158 224 259 164 201 86 204 57 196 72 157 148 37 163 192 198 217 202 253 117 190 185 96 152 252 246 59 93 75 186 71 210 66 67 255 69 165 79 45 81 219 174 124 235 154 85 177 207 220</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 119 112 77 222 54 60 74 106 135 218 125 257 247 130 91 39 162 256 155 183 42 143 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 196</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119 257 144 43 127 247 130 143 227 51 200 40 104 60 112 53 74 91 139 132 109 134 118 83 115 244 162 106 39 135 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_dbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 157</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139 132 119 83 257 112 134 244 247 130 143 109 118 115 60 53 74 91 227 51 200 144 40 127 104 43 222 106 39 135 162 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112 144 119 91 43 53 127 60 74 227 51 143 200 40 104 257 247 130 139 132 109 134 118 83 115 244 106 39 135 162 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 208 84 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112 42 119 53 162 248 155 60 143 39 256 183 208 257 247 130 106 135 222 218 77 125 54 91 134 74 139 132 227 51 200 109 144 40 118 127 83 104 115 43 244 84</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Encrypt\EncryptAlg1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 285 275 274 272 281 280 273</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 280 272 285 275 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 256 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 256 143 119 130 247 39 183 257 162 155 42 60 112 53 74 91 106 135 222 218 77 125 54 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_fwdgt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119 118 257 109 115 247 130 143 139 132 112 134 83 244 60 53 74 91 227 51 200 144 40 127 104 43 218 106 39 135 162 222 256 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 119 51 40 112 53 227 200 104 60 144 127 43 257 247 130 139 132 109 134 118 83 115 244 74 91 106 39 135 162 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\UDS\UDS_Prg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 280 179 26 276 11 29 127 135 34 17 2 228 144 43 119 18 291 25 23 28 24 27 208 272 91 301 269 60 74 51 200 40 104 275 31 12 8 6 22 264 33 13 5 15 35 21 286 36 214 274 281 273 146 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\DTC\DTC.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 218 119 311 112 91 17 209 309 257 106 135 125 19 34 2 146 313 282 285 215 222 77 54 128 26 11 276 29 280 248 179 301 296 228 269 99 247 130 143 39 162 256 155 183 42 84 18 291 25 23 28 24 27 208 272 275 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_bkp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 200 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39 119 183 257 91 256 247 130 162 155 42 60 112 53 74 106 135 222 218 77 125 54 200 143 139 132 227 51 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ERROR_interrupt\gd32a50x_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 214 146 179 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 112 218 257 106 135 125 119 209 18 272 222 77 54 309 146 84 25 27 143 214 247 130 39 162 256 155 183 42 311 40 291 23 24 208 275 60 53 74 91 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 313 282 285 215 128 19 26 34 11 17 276 2 29 280 248 107 179 301 296 228 269 99 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_cmp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 119 130 162 247 155 257 91 39 256 183 60 112 53 74 106 135 222 218 77 125 54 109 143 139 132 227 51 200 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\EEPROM\eepromapi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 259</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 258</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 119 311 40 112 91 17 209 309 257 106 135 125 19 34 2 146 313 282 285 215 222 77 54 128 26 11 276 29 280 248 179 301 296 228 269 99 247 130 143 39 162 256 155 183 42 84 18 291 25 23 28 24 27 208 272 275 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 133</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 33 274</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 119 257 109 115 139 132 112 134 83 244 247 130 143 227 51 200 144 40 127 104 43 33 60 53 74 91 106 39 135 162 222 256 218 155 77 183 125 42 54 274</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CANStack\UDS\UDS_Cfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 309 298 300 97 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 179 13 275 274 6 21 127 135 12 264 15 36 273 228 144 43 119 31 8 22 33 5 35 286 214 281 146 91 301 269 60 74 51 200 40 104 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 248 296 19 99 112 53 109 134 118 83 115 244 298 300 97 84 139 132 227 209 313 311 282 309 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\CMSIS\system_gd32a50x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112 222 119 53 54 91 77 60 74 106 135 218 125 257 247 130 143 39 162 256 155 183 42 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\CMSIS\startup_gd32a50x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_rcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 236</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83 119 60 132 139 112 134 244 53 109 118 115 257 247 130 143 227 51 200 144 40 127 104 43 183 74 91 106 39 135 162 222 256 218 155 77 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\IO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 209 309 247 155 119 18 272 311 40 162 42 146 84 25 27 143 313 282 285 215 130 39 256 183 291 23 24 208 275 179 301 296 228 19 269 99 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\RTE\RTE.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 282 146 215 247 155 119 18 272 313 285 162 42 84 25 27 143 209 311 309 40 130 39 256 183 291 23 24 208 275 179 301 296 228 19 269 99 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Service\Srv_IO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 40 311 247 155 119 18 272 209 309 162 42 146 84 25 27 143 313 282 285 215 130 39 256 183 291 23 24 208 275 214 179 301 296 228 19 269 99 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_mfcom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 253</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 249</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119 183 247 39 130 91 256 257 162 155 42 60 112 53 74 106 135 222 218 77 125 54 127 143 139 132 227 51 200 109 144 134 40 118 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SoftTimer\SoftTimerDrv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 255</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 146 35 2 21 27 286 29 36 208 91 143 139 132 227 84 248 214 179 119 60 112 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 128 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 119 13 275 274 99 6 21 112 300 12 264 15 36 273 296 53 109 115 143 97 31 8 22 33 5 35 286 214 281 146 248 19 91 134 83 244 309 298 18 26 291 34 25 11 23 17 28 276 24 2 27 29 208 272 280 179 301 228 269 60 74 51 200 144 40 127 104 43 135 84 139 132 227 209 313 311 282 285 215 257 247 130 106 39 162 222 256 218 155 77 183 125 42 54 128</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 155 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83 119 132 60 139 112 134 244 53 109 118 115 257 247 130 143 227 51 200 144 40 127 104 43 74 91 106 39 135 162 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247 119 77 130 222 54 257 74 106 112 135 218 125 60 53 91 39 162 256 155 183 42 143 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 252</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43 60 119 144 127 112 53 143 227 51 200 40 104 257 247 130 139 132 109 134 118 83 115 244 74 91 106 39 135 162 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\CAN.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 209 309 247 155 119 18 272 311 40 162 42 146 84 25 27 143 313 282 285 215 130 39 256 183 291 23 24 208 275 179 301 296 228 19 269 99 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244 119 139 112 134 257 132 83 247 130 143 109 118 115 60 53 74 91 227 51 200 144 40 127 104 43 77 106 39 135 162 222 256 218 155 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 130 119 143 112 247 106 135 125 257 222 77 54 60 53 74 91 39 162 256 155 183 42 83 139 132 227 51 200 109 144 134 40 118 127 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Task\TaskStep.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 119 19 247 155 18 272 296 99 162 42 146 84 25 27 143 179 301 228 269 130 39 256 183 291 23 24 208 275 209 313 311 282 309 285 40 215 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Service\Srv_Com.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 269 119 301 112 91 17 179 228 257 106 135 125 19 34 2 296 99 222 77 54 128 26 11 276 29 280 248 214 146 209 313 311 282 309 285 40 215 247 130 143 39 162 256 155 183 42 84 18 291 25 23 28 24 27 208 272 275 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MAIN.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 260</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 301 269 247 155 119 18 272 179 228 162 42 146 84 25 27 143 296 19 99 130 39 256 183 291 23 24 208 275 209 313 311 282 309 285 40 215 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Swaybar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 234</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 282 39 24 275 146 215 130 183 119 291 313 285 143 256 23 208 209 311 309 40 247 162 155 42 84 18 25 28 27 272 99 214 179 301 296 228 19 269 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 127 77 83 183 104 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 256 119 112 91 53 39 183 60 162 155 42 257 247 130 74 106 135 222 218 77 125 54 143 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183 112 119 39 91 256 53 162 155 42 60 74 106 135 222 218 77 125 54 257 247 130 143 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 221</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119 222 130 54 247 77 257 74 106 112 135 218 125 60 53 91 39 162 256 155 183 42 143 139 132 227 51 200 109 144 134 40 118 127 83 104 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 125 115 42 43 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 54 257 119 222 77 247 130 143 106 112 135 218 125 60 53 74 91 39 162 256 155 183 42 104 139 132 227 51 200 109 144 134 40 118 127 83 115 43 244</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_wwdgt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 250</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 244 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247 43 144 119 130 143 127 257 227 51 200 40 104 60 112 53 74 91 139 132 109 134 118 83 115 244 106 39 135 162 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\GD32A50x_standard_peripheral\Source\gd32a50x_trigsel.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 142</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 54 244</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 119 257 109 115 247 130 139 132 112 134 83 244 60 53 143 227 51 200 144 40 127 104 43 74 91 106 39 135 162 222 256 218 155 77 183 125 42 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\LowPower\LowPowerApi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 215 146 282 247 155 119 18 272 313 285 162 42 84 25 27 143 209 311 309 40 130 39 256 183 291 23 24 208 275 179 301 296 228 19 269 99 257 106 112 135 222 218 77 125 54 91 128 26 34 11 17 276 2 29 280 248 214 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32A503_Drv\CANBusOff.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 137</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215 214 146 179 119 60 112 91 143 139 132 227 130 53 51 106 74 257 247 39 200 135 109 162 144 222 134 256 40 218 118 155 127 77 83 183 104 125 115 42 43 54 244 209 313 301 311 296 282 228 84 128 309 298 300 97 19 275 274 272 281 280 273 18 31 26 12 291 8 34 6 25 22 11 264 23 33 17 13 28 5 276 15 24 35 2 21 27 286 29 36 208 248 285 269 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135 2 311 19 91 40 257 106 125 119 34 209 309 112 218 17 146 313 282 285 215 222 77 54 128 26 11 276 29 280 248 214 179 301 296 228 269 99 247 130 143 39 162 256 155 183 42 84 18 291 25 23 28 24 27 208 272 275 60 53 74 139 132 227 51 200 109 144 134 118 127 83 104 115 43 244 298 300 97 31 12 8 6 22 264 33 13 5 15 35 21 286 36 274 281 273</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

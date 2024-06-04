@@ -1,0 +1,15 @@
+"E:\zhaoziyi\0_Tool\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"E:\zhaoziyi\0_Tool\IAR Systems\Embedded Workbench 8.2\arm\bin\armjlink2.dll" 
+
+"E:\zhaoziyi\GD32_BT&Swaybar\Swaybar_Project\Debug\Exe\Swaybar_Project.out" 
+
+--plugin="E:\zhaoziyi\0_Tool\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="E:\zhaoziyi\0_Tool\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\GD\GD32A50x.dmac" 
+
+--flash_loader="E:\zhaoziyi\0_Tool\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\GD\FlashGD32A503xC.board" 
+
+
+
+
